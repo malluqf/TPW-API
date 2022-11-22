@@ -9,9 +9,7 @@ module.exports = {
         for(let i in categorias){
             json.result.push({
                 nome: categorias[i].nome,
-                email: categorias[i].email,
-                categoria: categorias[i].categoria,
-                mensagem: categorias[i].mensagem
+                icone: categorias[i].icone
             });
         }
         res.json(json);

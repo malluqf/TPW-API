@@ -8,10 +8,8 @@ module.exports = {
 
         for(let i in dicas){
             json.result.push({
-                nome: dicas[i].nome,
-                email: dicas[i].email,
-                categoria: dicas[i].categoria,
-                mensagem: dicas[i].mensagem
+                titulo : dicas[i].titulo,
+                imagem: dicas[i].imagem
             });
         }
         res.json(json);
