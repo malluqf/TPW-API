@@ -1,4 +1,4 @@
-const DicaIniciantesService = require('../services/CategoriaService');
+const DicaIniciantesService = require('../services/DicaIniciantesService');
 
 module.exports = {
     buscarTodos: async(req, res)=>{
